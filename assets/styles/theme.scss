@@ -1,0 +1,19 @@
+@import 'colors';
+
+$background-color: $paper-white;
+$font-color: $charcoal;
+
+body {
+  background-color: $background-color;
+  color: $font-color;
+}
+
+$quote-padding: ($vertical-padding * 2);
+$quote-font-size: ($font-size * 1.4);
+$quote-background-color: shade($background-color, 10%);
+
+.quote {
+  background-color: $quote-background-color;
+  font-size: $quote-font-size;
+  padding: $quote-padding;
+}

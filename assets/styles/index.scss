@@ -1,12 +1,5 @@
-$background-color: #fefefe;
-$font-color: #4e4e4e;
+@import 'typography';
+@import 'theme';
 
-body {
-  background-color: $background-color;
-  color: $font-color;
-}
-
-.quote {
-  font-size: 30px;
-  background-color: #e5e5e5;
-}
+// must be included at the end
+@import 'breakpoints';

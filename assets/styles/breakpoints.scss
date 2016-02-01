@@ -1,0 +1,7 @@
+@import 'breakpoint';
+
+body {
+  @include breakpoint(tiny) {
+    margin: ($horizontal-margin / 2) auto;
+  }
+}
