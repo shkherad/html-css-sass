@@ -1,0 +1,10 @@
+@import "breakpoint";
+
+body {
+  @include breakpoint(small) {
+    font-size: $font-size * 0.75;
+  }
+  @include breakpoint(medium) {
+    max-width: 100%;
+  }
+}
